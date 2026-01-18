@@ -3,7 +3,8 @@
 ## Overview
 This project demonstrates the implementation of a deep neural network (ANN) for classifying bird species. The entire model was built from scratch, line by line, showcasing a comprehensive understanding of neural network architecture, data preprocessing, training, and evaluation processes.
 
-## Technologies Used
+## Dataset
+The project uses the `bird.csv` dataset, which contains morphological measurements of birds for species classification. The dataset includes features such as humerus length/width, ulna length/width, femur length/width, tibiotarsus length/width, and tarsometatarsus length/width. It comprises approximately 422 samples across 6 bird species classes.
 - **Python**: Primary programming language
 - **TensorFlow/Keras**: For building and training the neural network
 - **NumPy**: For numerical computations
@@ -12,6 +13,7 @@ This project demonstrates the implementation of a deep neural network (ANN) for 
 - **Matplotlib & Seaborn**: For data visualization and plotting results
 
 ## Project Structure
+- `data/bird.csv`: Dataset containing bird morphological measurements
 - `notebooks/dnnpractical2.ipynb`: Jupyter notebook containing the complete implementation
 - `models/bird_ann_model.h5`: Trained ANN model saved in HDF5 format
 - `requirements.txt`: List of required Python packages
