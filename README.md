@@ -29,7 +29,7 @@ This project demonstrates the implementation of a deep neural network (ANN) for 
 3. Run the cells sequentially to reproduce the results
 
 ## Results
-[Add your specific results here, such as accuracy scores, confusion matrix insights, or any notable outcomes from your implementation.]
+The model achieved a training accuracy of 76.67% and a test accuracy of 73.49%. The classification report shows a weighted average F1-score of 0.73, with macro average F1-score of 0.54 across 6 bird species classes.
 
 ## Learning Outcomes
 This project highlights expertise in:
